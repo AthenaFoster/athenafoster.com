@@ -9,7 +9,7 @@ description: "Athena Foster, freelance awesome person."
 # Team names, titles and social links
 people:
 - name: Athena Foster
-  pic: 1
+  pic: athena
   position: Lead Designer
   social:
     - title: twitter
