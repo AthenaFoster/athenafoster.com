@@ -1,6 +1,6 @@
 ---
-title: Hello World
-subtitle: The website is live
+title: Sown Men
+subtitle: Lorem ipsum
 layout: default
 modal-id: 1
 date: 2021-08-01
@@ -9,7 +9,8 @@ thumbnail: roundicons-thumbnail.png
 alt: image-alt
 project-date: August 2021
 client: Start Bootstrap
-category: Announcements
-description: This is the first post.
-
+category: Works
+description: This is a placeholder for the moment.
 ---
+
+This is a placeholder for the moment!
