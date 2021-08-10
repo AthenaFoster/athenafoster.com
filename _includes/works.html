@@ -8,7 +8,7 @@
                 </div>
             </div>
             <div class="row">
-            {% for p in site.pages | where_exp:"p", "p.url contains '/works'" %}
+            {% for p in site.pages | where_exp:"p", "p.url contains '/works/'" %}
                 <div class="col-md-4 col-sm-6 works-item">
                   <a href="{{ p.url }}" class="works-link">
                         <div class="works-hover">
