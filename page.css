@@ -1,0 +1,13 @@
+#content {
+    position: relative;
+    top: 150px;
+    margin: 3em 3em 180px 3em;
+}
+
+.navbar-default {
+    background-image: linear-gradient(#222, #444);
+}
+
+footer {
+    background-image: linear-gradient(#ccc, #444);
+}
