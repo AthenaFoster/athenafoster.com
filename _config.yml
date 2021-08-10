@@ -31,3 +31,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
