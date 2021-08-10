@@ -1,0 +1,5 @@
+Make contact form work:
+- https://stackoverflow.com/a/63423861/1207769 (do it ourselves)
+- https://www.formbackend.com/#pricing (up to 50 submissions/month free)
+- https://formspree.io/plans (up to 50 submissions/month free)
+- https://kontactr.com/pricing (up to 150 submissions/month free)
