@@ -11,3 +11,7 @@
 footer {
     background-image: linear-gradient(#ccc, #444);
 }
+
+img {
+  max-width: 100%;
+}
