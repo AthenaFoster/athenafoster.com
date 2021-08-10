@@ -1,6 +1,5 @@
 ---
 title: Hello World
-layout: post
 ---
 
 The site is live!

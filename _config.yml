@@ -36,3 +36,9 @@ collections:
   pages:
     output: true
     permalink: /:path
+defaults:
+  -
+    scope:
+      path: "" # NB: all files in the project
+    values:
+      layout: page

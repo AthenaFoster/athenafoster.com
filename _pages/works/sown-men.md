@@ -1,7 +1,6 @@
 ---
 title: Sown Men
 subtitle: Lorem ipsum
-layout: default
 modal-id: 1
 date: 2021-08-01
 img: roundicons.png
