@@ -4,13 +4,13 @@ baseurl: ""
 # Site settings
 title: AthenaFoster.com
 email: athena@athenafoster.com
-description: "Athena Foster, freelance awesome person."
+description: "Athena Foster, freelance writer."
 
 # Team names, titles and social links
 people:
 - name: Athena Foster
   pic: athena
-  position: Lead Designer
+  position: Writer
   social:
     - title: twitter
       url: https://twitter.com/PedanticASF
