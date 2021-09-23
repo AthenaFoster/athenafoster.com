@@ -13,3 +13,7 @@ header {
 .social-buttons {
   margin-top: 1em;
 }
+
+.section-subheading {
+  display: none;
+}
