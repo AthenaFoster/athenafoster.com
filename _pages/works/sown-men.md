@@ -3,8 +3,8 @@ title: Sown Men
 subtitle: Paradise Icon Anthology 2020
 modal-id: 1
 date: 2021-09-30
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: paradise-icon-anthology-2020.jpg
+thumbnail: paradise-icon-anthology-2020.jpg
 alt: image-alt
 project-date: September 2021
 client: Start Bootstrap
