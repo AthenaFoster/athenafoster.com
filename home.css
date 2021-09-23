@@ -5,3 +5,11 @@
 header {
   height: 100vh;
 }
+
+.team-member > h4, .team-member > p {
+  display: none;
+}
+
+.social-buttons {
+  margin-top: 1em;
+}
