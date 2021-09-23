@@ -3,7 +3,8 @@
 }
 
 header {
-  height: 100vh;
+  height: 50vh;
+  background-position: top;
 }
 
 .team-member > h4, .team-member > p {
@@ -16,4 +17,13 @@ header {
 
 .section-subheading {
   display: none;
+}
+
+.facebook-feed {
+  padding-top: 100px;
+}
+
+#subscribe {
+  position: absolute;
+  bottom: calc(50vh + 2em);
 }
