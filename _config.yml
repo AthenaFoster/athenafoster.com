@@ -12,6 +12,14 @@ people:
   pic: athena
   position: Writer
   social:
+    - title: facebook
+      url: https://facebook.com/AthenaFoster
+    - title: goodreads
+      url: https://www.goodreads.com/athenafoster
+    - title: bookbub
+      url: https://www.bookbub.com/
+    - title: spotify
+      url: https://www.spotify.com/
     - title: twitter
       url: https://twitter.com/PedanticASF
     - title: github
