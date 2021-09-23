@@ -8,22 +8,9 @@
                 </div>
             </div>
             <div class="row">
-            {% for p in site.posts %}
-                <div class="col-md-4 col-sm-6">
-                    <a href="{{ p.url }}">{{p.title}}</a>
-                        <div class="news-hover">
-                            <div class="news-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/news/{{ p.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="news-caption">
-                        <h4>{{ p.title }}</h4>
-                        <p class="text-muted">{{ p.subtitle }}</p>
-                    </div>
+                <div class="facebook-feed">
+                    <div style="margin-left: 500px" class="fb-page" data-href="https://www.facebook.com/AthenaFoster" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/AthenaFoster" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AthenaFoster">Athena Foster</a></blockquote></div>
                 </div>
-            {% endfor %}
             </div>
         </div>
     </section>
