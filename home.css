@@ -17,3 +17,11 @@ header {
 .section-subheading {
   display: none;
 }
+
+#subscribe {
+  margin-top: 1em;
+}
+
+#read-more {
+  margin-top: 5em;
+}
