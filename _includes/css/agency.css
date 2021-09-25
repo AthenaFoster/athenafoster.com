@@ -725,7 +725,7 @@ footer {
     text-align: center;
 }
 
-footer span.copyright {
+footer #copyright {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
