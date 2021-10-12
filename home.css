@@ -8,8 +8,30 @@ header {
   margin-bottom: 2em;
 }
 
-.team-member > h4, .team-member > p {
-  display: none;
+.team-member {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+}
+
+.team-member .description {
+  vertical-align: middle;
+  height: 200px;
+  width: calc(100% - 200px - 4em);
+}
+
+@media screen and (max-width: 600px) {
+  .team-member .description {
+    width: calc(100vw - 4em);
+  }
 }
 
 .social-buttons {
@@ -23,19 +45,27 @@ header {
 #subscribe {
   float: right;
   width: 16em;
+  height: 43px;
+  padding-top: 10px;
+}
+
+#works li {
+  max-width: 200px;
+  padding-left: 20px;
+}
+
+/* Center nav button icons inside black circles. */
+.nav .fab {
+  position: relative;
+  left: -0.22em;
+  top: -0.9em;
 }
 
 #news {
+  width: 350px;
   float: right;
-  width: 500px;
-  margin-top: 50px;
 }
 
-#works {
-  width: calc(100% - 550px);
-  margin-top: 50px;
-}
-
-#newsletter input {
-  width: calc(100% - 20em);
+.facebook-feed {
+  margin-left: -136px;
 }

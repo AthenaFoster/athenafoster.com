@@ -6,29 +6,50 @@ title: AthenaFoster.com
 email: athena@athenafoster.com
 description: "Athena Foster, freelance writer."
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: https://facebook.com/AthenaFoster
+  - title: goodreads
+    url: https://www.goodreads.com/athenafoster
+  - title: spotify
+    url: https://www.spotify.com/
+  - title: twitter
+    url: https://twitter.com/PedanticASF
+  - title: github
+    url: https://github.com/AthenaFoster
+
+works:
+- title: Sown Men
+  subtitle: Paradise Icon Anthology 2020
+  img: paradise-icon-anthology-2020.jpg
+  url: https://amazon.com/Paradise-Icon-Anthology-2020-Schaff-Stump-ebook/dp/B09F8D2JX6
+- title: Title B
+  subtitle: Paradise Icon Anthology 2020
+  img: paradise-icon-anthology-2020.jpg
+  url: https://amazon.com/Paradise-Icon-Anthology-2020-Schaff-Stump-ebook/dp/B09F8D2JX6
+- title: Title C
+  subtitle: Paradise Icon Anthology 2020
+  img: paradise-icon-anthology-2020.jpg
+  url: https://amazon.com/Paradise-Icon-Anthology-2020-Schaff-Stump-ebook/dp/B09F8D2JX6
+- title: Title D
+  subtitle: Paradise Icon Anthology 2020
+  img: paradise-icon-anthology-2020.jpg
+  url: https://amazon.com/Paradise-Icon-Anthology-2020-Schaff-Stump-ebook/dp/B09F8D2JX6
+- title: Title E
+  subtitle: Paradise Icon Anthology 2020
+  img: paradise-icon-anthology-2020.jpg
+  url: https://amazon.com/Paradise-Icon-Anthology-2020-Schaff-Stump-ebook/dp/B09F8D2JX6
+- title: Title F
+  subtitle: Paradise Icon Anthology 2020
+  img: paradise-icon-anthology-2020.jpg
+  url: https://amazon.com/Paradise-Icon-Anthology-2020-Schaff-Stump-ebook/dp/B09F8D2JX6
+
 # Team names, titles and social links
 people:
 - name: Athena Foster
   pic: athena
   position: Writer
-  social:
-    - title: facebook
-      url: https://facebook.com/AthenaFoster
-    - title: goodreads
-      url: https://www.goodreads.com/athenafoster
-    - title: spotify
-      url: https://www.spotify.com/
-    - title: twitter
-      url: https://twitter.com/PedanticASF
-    - title: github
-      url: https://github.com/AthenaFoster
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/PedanticASF
-  - title: github
-    url: http://github.com/AthenaFoster
 
 # Postal address (add as many lines as necessary)
 address:

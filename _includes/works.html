@@ -1,19 +1,26 @@
 <!-- Works Grid Section -->
-    <div id="works" class="bg-light-gray">
-        {%- for p in site.pages | where_exp:"p", "p.url contains '/works/'" %}
-        <div class="col-md-4 col-sm-6 works-item">
-          <a href="{{ p.url }}" class="works-link">
+
+    <div id="works" class="bg-light-gray carousel" duration="99999999">
+      <ul>
+        {%- for work in site.works %}
+        <li class="col-md-4 col-sm-6 works-item">
+          <a href="{{ work.url }}" class="works-link">
                 <div class="works-hover">
                     <div class="works-hover-content">
                         <i class="fa fa-plus fa-3x"></i>
                     </div>
                 </div>
-                <img src="img/works/{{ p.thumbnail }}" class="img-responsive img-centered" alt="">
+                <img src="img/works/{{ work.img }}" class="img-responsive img-centered" alt="">
             </a>
             <div class="works-caption">
-                <h4>{{ p.title }}</h4>
-                <p class="text-muted">{{ p.subtitle }}</p>
+                <h4>{{ work.title }}</h4>
+                <p class="text-muted">{{ work.subtitle }}</p>
             </div>
-        </div>
+        </li>
         {% endfor -%}
+      </ul>
+      {% comment %}
+      <div class="prev">&lsaquo;</div>
+      <div class="next">&rsaquo;</div>
+      {% endcomment %}
     </div>
