@@ -11,12 +11,11 @@
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right list-inline social-buttons">
 										{%- for link in site.social %}
-										<li><a href="{{link.url}}"><i class="fab fa-{{link.title}}"></i></a></li>
+										<li><a href="{{link.url}}"><i class="fab fa-{{link.title}}"><span class="nav-text"> {{link.text}}</span></i></a></li>
 										{%- endfor %}
                 </ul>
             </div>

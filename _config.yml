@@ -10,14 +10,19 @@ description: "Athena Foster, freelance writer."
 social:
   - title: facebook
     url: https://facebook.com/AthenaFoster
+    text: Find me on Facebook
   - title: goodreads
     url: https://www.goodreads.com/athenafoster
+    text: What I'm reading
   - title: spotify
     url: https://open.spotify.com/user/1255770321?si=a6cb666720424455&nd=1
+    text: What I'm listening to
   - title: twitter
     url: https://twitter.com/PedanticASF
+    text: Follow me on Twitter
   - title: github
     url: https://github.com/AthenaFoster
+    text: My GitHub profile
 
 works:
 - title: Sown Men
