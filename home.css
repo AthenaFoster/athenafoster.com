@@ -14,7 +14,7 @@ header {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 
 .team-member img {
@@ -24,7 +24,7 @@ header {
 
 .team-member .description {
   vertical-align: middle;
-  height: 200px;
+  min-height: 200px;
   width: calc(100% - 200px - 4em);
 }
 
@@ -49,6 +49,10 @@ header {
   padding-top: 10px;
 }
 
+#works ul {
+  list-style: none;
+}
+
 #works li {
   max-width: 200px;
   padding-left: 20px;
@@ -62,10 +66,35 @@ header {
 }
 
 #news {
-  width: 350px;
-  float: right;
+  float: left;
+  width: 500px;
+  padding-left: 2em;
 }
 
-.facebook-feed {
-  margin-left: -136px;
+#contact {
+  float: right;
+  width: 370px;
+  padding-right: 2em;
+  margin-bottom: 1.5em;
+}
+
+#bio {
+  padding-top: 5em;
+  padding-bottom: 0;
+  clear: both;
+}
+
+footer {
+  padding: 0 0 25px 0;
+}
+
+@media screen and (max-width: 920px) {
+  #news {
+    float: none;
+    margin-left: calc(50% - 251px - 2em);
+  }
+  #contact {
+    float: none;
+    margin-left: calc(50% - 170px);
+  }
 }
