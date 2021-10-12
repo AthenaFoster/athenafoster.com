@@ -67,14 +67,14 @@ header {
 
 #news {
   float: left;
-  width: 500px;
+  width: min(500px, 100%);
   padding-left: 2em;
-  margin-left: calc(50% - 500px);
+  margin-left: max(1em, calc(50% - 500px));
 }
 
 #contact {
   float: right;
-  width: 400px;
+  width: min(400px, 100%);
   padding-right: 2em;
   margin-bottom: 1.5em;
   margin-right: calc(50% - 500px);
@@ -93,17 +93,65 @@ footer {
 @media screen and (max-width: 1047px) {
   #news {
     float: none;
-    margin-left: calc(50% - 250px - 2em);
+    margin-left: max(1em, calc(50% - 250px - 2em));
   }
   #contact {
     float: none;
-    margin-left: calc(50% - 250px);
+    margin-left: max(1em, calc(50% - 200px));
   }
   #contact .embedForm {
-    min-width: 500px;
+    min-width: min(500px, calc(100% - 2em));
   }
 }
 
 .label-description {
   padding-left: 0.5em;
+}
+
+@media screen and (max-width: 570px) {
+  #news {
+    margin: 0;
+    padding: 0;
+  }
+  #news iframe {
+    transform: scale(0.95);
+    margin-left: calc(50vw - 255px);
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #news iframe {
+    transform: scale(0.8);
+    margin-top: -70px;
+    margin-bottom: -70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #news iframe {
+    transform: scale(0.72);
+    margin-top: -100px;
+    margin-bottom: -100px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #news iframe {
+    transform: scale(0.64);
+    margin-top: -130px;
+    margin-bottom: -130px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #news iframe {
+    transform: scale(0.56);
+    margin-top: -160px;
+    margin-bottom: -160px;
+  }
+}
+@media screen and (max-width: 300px) {
+  #news iframe {
+    transform: scale(0.48);
+    margin-top: -190px;
+    margin-bottom: -190px;
+  }
 }
