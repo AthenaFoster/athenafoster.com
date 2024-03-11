@@ -8,7 +8,7 @@ thumbnail: paradise-icon-anthology-2020.jpg
 alt: image-alt
 project-date: September 2021
 client: Start Bootstrap
-category: Works
+category: Anthologies
 description: This is a placeholder description for the moment.
 ---
 
