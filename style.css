@@ -8,12 +8,15 @@ layout: style
 
 .newspost {
   border-top: 1px solid gray;
-  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .newspost:first-child {
   border-top: inherit;
-  padding-top: 0;
+}
+
+.newspost:last-child {
+  padding-bottom: 0;
 }
 
 .datestamp {
