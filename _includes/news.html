@@ -1,6 +1,10 @@
 <!-- News Section -->
     <div id="news">
-        <div class="facebook-feed">
-            <div style="margin-left: 120px" class="fb-page" data-href="https://www.facebook.com/AthenaFoster" data-tabs="timeline" data-width="500" data-height="720" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/AthenaFoster" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/AthenaFoster">Athena Foster</a></blockquote></div>
-        </div>
+{% for p in site.posts %}
+<div class="newspost">
+{% if p.title != "none" %} <h2>{{p.title}}</h2> {% endif %}
+<p class="datestamp">Posted {{p.url | slice: 1, 10}}</p>
+{{p.content}}
+</div>
+{% endfor %}
     </div>

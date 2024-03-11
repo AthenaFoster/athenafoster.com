@@ -1,3 +1,22 @@
 ---
 layout: style
 ---
+
+#news img {
+  max-width: 100%;
+}
+
+.newspost {
+  border-top: 1px solid gray;
+  padding-top: 1em;
+}
+
+.newspost:first-child {
+  border-top: inherit;
+  padding-top: 0;
+}
+
+.datestamp {
+  font-style: italic;
+  font-variant: small-caps;
+}
